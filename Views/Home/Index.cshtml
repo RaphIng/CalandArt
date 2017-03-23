@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+
+    <script>
+
+    $(document).ready(function() {
+        console.log($('#calendar'));
+        $('#calendar').fullCalendar({
+        });
+
+    });
+
+    </script>
+
+
+    <div class="jumbotron">
+        <h1>Calendart</h1>
+        <p class="lead">Portail étudiant</p>
+        <p><a href="http://www.etsmtl.ca/calendrier/2017" class="btn btn-primary btn-lg">Lien éts &raquo;</a></p>
+    </div>
+
+    <div id='calendar'></div>
+
